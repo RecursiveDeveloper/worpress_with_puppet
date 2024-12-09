@@ -1,8 +1,8 @@
 #!/bin/bash
 
 wp core install \
-    --url=www.unirblog.com \
-    --title='First Unir Blog made with puppet!' \
-    --admin_user=jhoan \
+    --url=www.myfirstblog.com \
+    --title='First Blog made with Puppet and Vagrant!' \
+    --admin_user=devops \
     --admin_password=pass \
-    --admin_email=jhoan@gmail.com
+    --admin_email=devopssupport@gmail.com

@@ -4,7 +4,7 @@ class apache_wp () {
     mpm_module    => 'prefork'
   }
 
-  apache::vhost { 'unirblog.com':
+  apache::vhost { 'myfirstblog.com':
     port          => 80,
     docroot       => '/var/www/wordpress',
     docroot_owner => 'vagrant',
